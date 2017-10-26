@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: t1
+thrift:
+  server:
+    port: 8081

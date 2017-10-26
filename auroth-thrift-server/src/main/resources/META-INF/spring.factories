@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.wzy.auroth.thrift.server.config.ThriftServerAutoConfiguration
+

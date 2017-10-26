@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: test-consule-register
+  cloud:
+    consul:
+      host: localhost
+      discovery:
+        health-check-interval: 5s
+        prefer-ip-address: true
+  sleuth:
+    sampler:
+      percentage: 0.1
+  zipkin:
+    base-url: http://localhost:9099/
+server:
+  port: 8169
+thrift:
+  server:
+    port: 10081
+management:
+  security:
+    enabled: false
+
